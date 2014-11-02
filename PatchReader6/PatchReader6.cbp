@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PatchReader6" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="PatchReader6" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug Win32" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="$(SolutionDir)zlib" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(SolutionDir)zlib" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="PatchReader6" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release Win32" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-W" />
+					<Add option="-O2" />
+					<Add directory="$(SolutionDir)zlib" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(SolutionDir)zlib" />
+				</ResourceCompiler>
+			</Target>
+		</Build>
+		<Unit filename="Checksum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FileIO.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hijack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="read.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="split.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="write.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dictionary.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="INIManager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="iniparser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Checksum.h" />
+		<Unit filename="FileIO.h" />
+		<Unit filename="Struct.h" />
+		<Unit filename="hijack.h" />
+		<Unit filename="read.h" />
+		<Unit filename="split.h" />
+		<Unit filename="version.h" />
+		<Unit filename="write.h" />
+		<Unit filename="dictionary.h" />
+		<Unit filename="inimanager.h" />
+		<Unit filename="iniparser.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

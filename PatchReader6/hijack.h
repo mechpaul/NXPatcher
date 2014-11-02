@@ -1,0 +1,1 @@
+void HijackMain(char* exeFile);

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Patch Functions">
+      <UniqueIdentifier>{843ac48a-e46d-4bd5-a4d3-d737201ef7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dictionary">
+      <UniqueIdentifier>{0983e5c3-7e18-4220-963d-6321b06692b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Patch Functions">
+      <UniqueIdentifier>{2fe2e890-8513-4fef-8ffd-d9bee7b318b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dictionary">
+      <UniqueIdentifier>{a0020034-000d-43f5-b797-111c2ee0e83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Checksum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hijack.c">
+      <Filter>Source Files\Patch Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="read.c">
+      <Filter>Source Files\Patch Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="split.c">
+      <Filter>Source Files\Patch Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>Source Files\Patch Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="write.c">
+      <Filter>Source Files\Patch Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="dictionary.c">
+      <Filter>Source Files\Dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="INIManager.c">
+      <Filter>Source Files\Dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="iniparser.c">
+      <Filter>Source Files\Dictionary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Checksum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hijack.h">
+      <Filter>Header Files\Patch Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="read.h">
+      <Filter>Header Files\Patch Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="split.h">
+      <Filter>Header Files\Patch Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files\Patch Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="write.h">
+      <Filter>Header Files\Patch Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="dictionary.h">
+      <Filter>Header Files\Dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="inimanager.h">
+      <Filter>Header Files\Dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="iniparser.h">
+      <Filter>Header Files\Dictionary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
