@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="zlib" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="DLL ASM Debug Win32">
+				<Option output="Win32_DLL_ASM_Debug\zlib1d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32_DLL_ASM_Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DASMV" />
+					<Add option="-DASMINF" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+				</Compiler>
+				<Linker>
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+			<Target title="DLL Release Win32">
+				<Option output="Win32_DLL_Release\zlib1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32_DLL_Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-W" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+			<Target title="LIB ASM Debug Win32">
+				<Option output="Win32_LIB_ASM_Debug\libzlibd" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32_LIB_ASM_Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DASMV" />
+					<Add option="-DASMINF" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+				</Compiler>
+			</Target>
+			<Target title="DLL ASM Release Win32">
+				<Option output="Win32_DLL_ASM_Release\zlib1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32_DLL_ASM_Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DASMV" />
+					<Add option="-DASMINF" />
+					<Add option="-W" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+			<Target title="LIB Debug Win32">
+				<Option output="Win32_LIB_Debug\libzlibd" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32_LIB_Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+				</Compiler>
+			</Target>
+			<Target title="DLL Debug Win32">
+				<Option output="Win32_DLL_Debug\zlib1d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32_DLL_Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+				</Compiler>
+				<Linker>
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+			<Target title="LIB Release Win32">
+				<Option output=".\Win32_LIB_Release\libzlib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32_LIB_Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-W" />
+					<Add option="-O2" />
+				</Compiler>
+			</Target>
+			<Target title="LIB ASM Release Win32">
+				<Option output=".\Win32_LIB_ASM_Release\libzlib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32_LIB_ASM_Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DASMV" />
+					<Add option="-DASMINF" />
+					<Add option="-W" />
+					<Add option="-O2" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="README.txt" />
+		<Unit filename="..\..\adler32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\compress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\crc32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\deflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\gzio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\infback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\inffast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\inflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\inftrees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\trees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\uncompr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\win32\zlib.def">
+			<Option target="DLL ASM Debug Win32" />
+			<Option target="DLL Release Win32" />
+			<Option target="DLL ASM Release Win32" />
+			<Option target="DLL Debug Win32" />
+		</Unit>
+		<Unit filename="..\..\zutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\crc32.h" />
+		<Unit filename="..\..\deflate.h" />
+		<Unit filename="..\..\inffast.h" />
+		<Unit filename="..\..\inffixed.h" />
+		<Unit filename="..\..\inflate.h" />
+		<Unit filename="..\..\inftrees.h" />
+		<Unit filename="..\..\trees.h" />
+		<Unit filename="..\..\zconf.h" />
+		<Unit filename="..\..\zlib.h" />
+		<Unit filename="..\..\zutil.h" />
+		<Unit filename="..\..\win32\zlib1.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="..\..\contrib\masmx86\gvmat32.asm">
+			<Option target="DLL ASM Debug Win32" />
+			<Option target="LIB ASM Debug Win32" />
+			<Option target="DLL ASM Release Win32" />
+			<Option target="LIB ASM Release Win32" />
+		</Unit>
+		<Unit filename="..\..\contrib\masmx86\gvmat32c.c">
+			<Option compilerVar="CC" />
+			<Option target="DLL ASM Debug Win32" />
+			<Option target="LIB ASM Debug Win32" />
+			<Option target="DLL ASM Release Win32" />
+			<Option target="LIB ASM Release Win32" />
+		</Unit>
+		<Unit filename="..\..\contrib\masmx86\inffas32.asm">
+			<Option target="DLL ASM Debug Win32" />
+			<Option target="LIB ASM Debug Win32" />
+			<Option target="DLL ASM Release Win32" />
+			<Option target="LIB ASM Release Win32" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

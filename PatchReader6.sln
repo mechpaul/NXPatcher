@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PatchReader6", "PatchReader6\PatchReader6.vcxproj", "{116DB894-A807-4544-80D6-EAD397CA1085}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib\projects\visualc6\zlib.vcxproj", "{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DLL ASM Debug|Win32 = DLL ASM Debug|Win32
+		DLL ASM Release|Win32 = DLL ASM Release|Win32
+		DLL Debug|Win32 = DLL Debug|Win32
+		DLL Release|Win32 = DLL Release|Win32
+		LIB ASM Debug|Win32 = LIB ASM Debug|Win32
+		LIB ASM Release|Win32 = LIB ASM Release|Win32
+		LIB Debug|Win32 = LIB Debug|Win32
+		LIB Release|Win32 = LIB Release|Win32
+		Release|Win32 = Release|Win32
+		using libcurl DLL Debug|Win32 = using libcurl DLL Debug|Win32
+		using libcurl DLL Release|Win32 = using libcurl DLL Release|Win32
+		using libcurl LIB Debug|Win32 = using libcurl LIB Debug|Win32
+		using libcurl LIB Release|Win32 = using libcurl LIB Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{116DB894-A807-4544-80D6-EAD397CA1085}.Debug|Win32.ActiveCfg = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.Debug|Win32.Build.0 = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.DLL ASM Debug|Win32.ActiveCfg = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.DLL ASM Debug|Win32.Build.0 = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.DLL ASM Release|Win32.ActiveCfg = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.DLL ASM Release|Win32.Build.0 = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.DLL Debug|Win32.ActiveCfg = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.DLL Debug|Win32.Build.0 = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.DLL Release|Win32.ActiveCfg = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.DLL Release|Win32.Build.0 = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.LIB ASM Debug|Win32.ActiveCfg = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.LIB ASM Debug|Win32.Build.0 = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.LIB ASM Release|Win32.ActiveCfg = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.LIB ASM Release|Win32.Build.0 = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.LIB Debug|Win32.ActiveCfg = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.LIB Debug|Win32.Build.0 = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.LIB Release|Win32.ActiveCfg = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.LIB Release|Win32.Build.0 = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.Release|Win32.ActiveCfg = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.Release|Win32.Build.0 = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.using libcurl DLL Debug|Win32.ActiveCfg = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.using libcurl DLL Debug|Win32.Build.0 = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.using libcurl DLL Release|Win32.ActiveCfg = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.using libcurl DLL Release|Win32.Build.0 = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.using libcurl LIB Debug|Win32.ActiveCfg = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.using libcurl LIB Debug|Win32.Build.0 = Debug|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.using libcurl LIB Release|Win32.ActiveCfg = Release|Win32
+		{116DB894-A807-4544-80D6-EAD397CA1085}.using libcurl LIB Release|Win32.Build.0 = Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.Debug|Win32.ActiveCfg = LIB Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.Debug|Win32.Build.0 = LIB Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.DLL ASM Debug|Win32.ActiveCfg = DLL ASM Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.DLL ASM Debug|Win32.Build.0 = DLL ASM Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.DLL ASM Release|Win32.ActiveCfg = DLL ASM Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.DLL ASM Release|Win32.Build.0 = DLL ASM Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.DLL Debug|Win32.ActiveCfg = DLL Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.DLL Debug|Win32.Build.0 = DLL Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.DLL Release|Win32.ActiveCfg = DLL Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.DLL Release|Win32.Build.0 = DLL Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.LIB ASM Debug|Win32.ActiveCfg = LIB ASM Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.LIB ASM Debug|Win32.Build.0 = LIB ASM Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.LIB ASM Release|Win32.ActiveCfg = LIB ASM Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.LIB ASM Release|Win32.Build.0 = LIB ASM Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.LIB Debug|Win32.ActiveCfg = LIB Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.LIB Debug|Win32.Build.0 = LIB Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.LIB Release|Win32.ActiveCfg = LIB Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.LIB Release|Win32.Build.0 = LIB Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.Release|Win32.ActiveCfg = LIB Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.Release|Win32.Build.0 = LIB Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.using libcurl DLL Debug|Win32.ActiveCfg = DLL Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.using libcurl DLL Debug|Win32.Build.0 = DLL Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.using libcurl DLL Release|Win32.ActiveCfg = DLL Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.using libcurl DLL Release|Win32.Build.0 = DLL Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.using libcurl LIB Debug|Win32.ActiveCfg = LIB Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.using libcurl LIB Debug|Win32.Build.0 = LIB Debug|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.using libcurl LIB Release|Win32.ActiveCfg = LIB Release|Win32
+		{9B4EFB47-EDA2-42C6-A932-C87914B4BFFF}.using libcurl LIB Release|Win32.Build.0 = LIB Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
