@@ -740,6 +740,7 @@ unsigned char* ParseType01(unsigned char* zlibBlock, char* fileName, char* outpu
 	printf("  File complete.\n");
 
 	free(buffer);
+	fclose(OldFile.fileptr);
 	free(OldFile.data);
 	free(Repeat.data);
 	fclose(writeFile);
